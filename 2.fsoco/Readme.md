@@ -3,9 +3,9 @@
 
 >git clone https://github.com/ibaicolegio/FStudenVitoria.git
 
->chmod +x FStudenVitoria/2.fsoco/instalador.sh
+>chmod +x FSV/2.fsoco/instalador.sh
 
->./FStudenVitoria/2.fsoco/instalador.sh
+>./FSV/2.fsoco/instalador.sh
 
 ## 2. Ejecucion:
 
