@@ -3,6 +3,6 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 wsl.exe --update
 wsl --set-default-version 2
-wsl --install -d Ubuntu-22.04
+wsl --install
 wsl
 Read-Host -Prompt "Finalizado, pulse enter para salir"
