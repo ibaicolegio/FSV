@@ -24,8 +24,3 @@
 >pre-commit install
 
 >fsoco --help
-
-## Si el ultimo comando no funciona:
->su fsoco --help
-
-
