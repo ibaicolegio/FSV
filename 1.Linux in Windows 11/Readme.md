@@ -18,4 +18,4 @@ A
 
 -Click derecho "Run with PowerShell"
 
-![alt text]((https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Windows%20Features.png)https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Windows%20Features.png)
+![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Windows%20Features.png)https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Windows%20Features.png)
