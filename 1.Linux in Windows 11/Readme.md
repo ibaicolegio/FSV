@@ -16,8 +16,13 @@ Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 
 ## En caso de no funcionar ejecutar los siguientes comandos
 >dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
 >dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
 >wsl.exe --update
+
 >wsl --set-default-version 2
+
 >wsl --install
+
 >wsl
