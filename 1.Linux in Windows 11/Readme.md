@@ -7,6 +7,8 @@ Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 Pulsamos la tecla para aceptar todo:
 >A
 
+![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Habilitar%20comandos.png)
+
 
 ## 2. Windows Features:
 
