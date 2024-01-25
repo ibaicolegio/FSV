@@ -12,4 +12,5 @@ Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 
 >Click derecho (Run with PowerShell)
 
+![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Instalador.png)
 
