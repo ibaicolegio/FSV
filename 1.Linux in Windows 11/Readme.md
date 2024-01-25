@@ -1,16 +1,5 @@
 # Guia instalacion Linux en Windows 11
-## 1. Habilitar ejecucion de comandos
-
-Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
->set-executionpolicy remotesigned
-
-Pulsamos la tecla para aceptar todo:
->A
-
-![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Habilitar%20comandos.png)
-
-
-## 2. Windows Features:
+## 1. Windows Features:
 
 Abrir "Turn Windows Features on or off"
 
@@ -21,8 +10,9 @@ Reiniciar Windows
 ![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Windows%20Features.png)
 
 
-## 3. Ejecutar "Linux in Windows 11.ps1"
+## 2. Ejecutar "wsl --install" en PowerShell
 
-Click derecho ["Run with PowerShell"](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Linux%20in%20Windows%2011.ps1)
+Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
+>wsl --install
 
 
