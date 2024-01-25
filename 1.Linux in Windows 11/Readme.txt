@@ -1,9 +1,20 @@
 1.Habilitar ejecucion de comandos
 
-PowerShell (Run as administrator):
+-Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 set-executionpolicy remotesigned
 
+-Pulsamos la tecla para aceptar todo:
+A
 
-2.Ejecutar "Linux in Windows 11.ps1"
 
-Click derecho "Run with PowerShell"
+2.Windows Features:
+
+-Abrir "Turn Windows Features on or off"
+-Habilitar "Windows Subsystem for Linux"
+-Reiniciar Windows
+
+
+3.Ejecutar "Linux in Windows 11.ps1"
+
+-Click derecho "Run with PowerShell"
+
