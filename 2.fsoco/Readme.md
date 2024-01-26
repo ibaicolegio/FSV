@@ -19,6 +19,10 @@
 
 >pip install setuptools==60.8.2
 
+>git clone https://github.com/fsoco/fsoco-dataset
+
+>cd fsoco-dataset/tools
+
 >cd fsoco-dataset/tools
 
 >pip install --editable .[sly]
