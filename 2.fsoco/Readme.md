@@ -9,10 +9,6 @@
 
 ## 2. Ejecucion:
 
->nano ~/.bash_profile
-
->>export PATH=~/anaconda3/bin:$PATH
-
 >source ~/.bashrc
 
 >conda create -n fsoco python=3.8
@@ -42,3 +38,5 @@
 >conda activate fsoco
 
 >fsoco --help
+
+>fsoco label-converters sly2yolo --remove_watermark --help
