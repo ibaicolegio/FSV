@@ -33,11 +33,15 @@
 
 >apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
->su "usuario"
+>su (Tu usuario)
 
 >conda activate fsoco
 
-## 3. Uso:
+## 3. Uso (Al reiniciar):
+
+>source ~/.bashrc
+
+>conda activate fsoco
 
 >fsoco --help
 
