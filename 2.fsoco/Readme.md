@@ -13,6 +13,8 @@
 
 >source ~/.bashrc
 
+>conda create -n fsoco python=3.8
+
 >conda activate fsoco
 
 >pip install --upgrade pip
