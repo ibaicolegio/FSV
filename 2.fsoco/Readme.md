@@ -9,6 +9,10 @@
 
 ## 2. Ejecucion:
 
+>nano ~/.bash_profile
+
+>>export PATH=~/anaconda3/bin:$PATH
+
 >source ~/.bashrc
 
 >conda create -n fsoco python=3.8
