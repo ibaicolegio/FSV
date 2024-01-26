@@ -23,8 +23,6 @@
 
 >cd fsoco-dataset/tools
 
->cd fsoco-dataset/tools
-
 >pip install --editable .[sly]
 
 >pip install -r requirements.txt
