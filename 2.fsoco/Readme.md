@@ -11,6 +11,8 @@
 
 ## 2. Ejecucion:
 
+>source ~/.bashrc
+
 >conda activate fsoco
 
 >pip install --upgrade pip
