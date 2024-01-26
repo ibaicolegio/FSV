@@ -26,3 +26,8 @@ Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 >wsl --install
 
 >wsl
+
+## Eliminar distribucion
+>wsl -l -v
+
+>wsl --unregister Ubuntu
