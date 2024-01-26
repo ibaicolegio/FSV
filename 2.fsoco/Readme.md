@@ -33,4 +33,12 @@
 
 >pre-commit install
 
+>sudo su
+
+>apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+
+>su "usuario"
+
+>conda activate fsoco
+
 >fsoco --help
