@@ -15,7 +15,7 @@
 
 >conda activate fsoco
 
->pip install --upgrade pip
+>pip install pip==19.3.0
 
 >pip install setuptools==60.8.2
 
