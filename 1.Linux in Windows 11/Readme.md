@@ -14,10 +14,10 @@ Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
 
 ![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Instalador.png)
 
+## 3. Instalar distribucion
+>wsl --install
+
 ## Eliminar distribucion
 >wsl -l -v
 
 >wsl --unregister Ubuntu
-
-## Instalar distribucion
->wsl --install
