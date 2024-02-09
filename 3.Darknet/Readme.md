@@ -137,5 +137,16 @@ https://developer.nvidia.com/downloads/compute/machine-learning/cudnn/secure/8.0
 
 ## 7.Uso
 >cd ~/installers/darknet
->
+
+### 1 Imagen
 >./darknet detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights data/dog.jpg
+
+### Varias imagenes
+>./darknet detect cfg/yolov4.cfg yolov4.weights
+
+### Video
+>./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights <video file>
+>
+>./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights <video file> -out_filename <output_video file>
+
+
