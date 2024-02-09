@@ -1,13 +1,18 @@
 # Guia instalacion fsoco
-## 1. Instalador:
+## 1. Instalaciones previas:
+>sudo su
 
->git clone https://github.com/ibaicolegio/FSV.git
+>apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
->chmod +x FSV/2.fsoco/instalador.sh
+>su [user]
 
->./FSV/2.fsoco/instalador.sh
+## 2. Instalar Anaconda:
 
-## 2. Ejecucion:
+>wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+
+>bash Anaconda3-2022.05-Linux-x86_64.sh
+
+## 3. Ejecucion:
 
 >source ~/.bashrc
 
@@ -29,15 +34,9 @@
 
 >pre-commit install
 
->sudo su
-
->apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
-
->su (Tu usuario)
-
 >conda activate fsoco
 
-## 3. Uso (Al reiniciar):
+## 4. Uso (Al reiniciar):
 
 >source ~/.bashrc
 
