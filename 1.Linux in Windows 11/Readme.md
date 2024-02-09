@@ -1,23 +1,23 @@
-# Guia instalacion Linux en Windows 11
-## 1. Habilitar ejecucion de comandos:
+# Guia instalacion Linux en Windows 11 (PowerShell)
 
-Abrimos PowerShell (Run as administrator) y escribimos lo siguiente:
->set-executionpolicy remotesigned
+## 1.Habilitar funciones WSL y VMP
+>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
->A
+>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Habilitar.png)
-
-## 2. Ejecutar "Instalador"
-
->Click derecho (Run with PowerShell)
-
-![alt text](https://github.com/ibaicolegio/FStudenVitoria/blob/main/1.Linux%20in%20Windows%2011/Instalador.png)
+## 2.Actualizar WSL a WSL2
+>wsl.exe --update
+>wsl --set-default-version 2
 
 ## 3. Instalar distribucion
->wsl --install
+>wsl --install [Distro]
 
-## Eliminar distribucion
+## 4. Gestion de distribucion
+### Listar distribuciones
 >wsl -l -v
 
->wsl --unregister Ubuntu
+### Eliminar distribucion
+>wsl --unregister <Distro>
+
+### Ayuda
+>wsl --help
