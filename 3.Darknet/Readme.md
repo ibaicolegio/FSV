@@ -37,7 +37,7 @@
 >
 >sudo apt update
 >
->sudo apt-get install nvidia-driver
+>sudo apt-get install nvidia-driver-450
 >
 >cd ~
 >
